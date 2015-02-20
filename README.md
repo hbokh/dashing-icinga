@@ -67,8 +67,11 @@ dashing:
 
 ## Connect
 
-Once the container is up, you can connect to the dashboard over HTTP.  
-URL: http://`< dockerhost >`:8080/icinga, e.g. http://boot2docker:8080/icinga
+Once the container is up, you can connect to a dashboard over HTTP.  
+URL: http://`< dockerhost >`:8080/icinga
+
+- http://boot2docker:8080/icinga  - dashboard with Twitter-widget and pretty wide
+- http://boot2docker:8080/icinga2 - dashboard without Twitter-widget, squared
 
 ## Todo
 
