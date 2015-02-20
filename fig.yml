@@ -1,0 +1,18 @@
+dashing:
+  image: hbokh/dashing-icinga
+  environment:
+   - ICINGA_CGI=https://icinga-hostname/icinga/cgi-bin/status.cgi
+   - ICINGA_USER=icingaadmin
+   - ICINGA_PASS=p4ssw0rd
+   - TWITTER_KEY=dYMXPkBLAHBLAHfhur2LhrF1a
+   - TWITTER_SECRET=5DoD1SiwYZG2xBLAHBLAHBmwBi0szV4Dy3DBLAHBLAH54xGAkO
+   - TWITTER_TOKEN=7162341-kAjNJ1BLAHBLAHhunfY7w1l7UWNXBLAHBLAH6hywI6
+   - TWITTER_TOKEN_SECRET=4uPyGsWBLAHBLAHBDmMs5RzzgnKQDBLAHBLAHmevwZOSfW
+  volumes:
+    - /Users/hbokh/dev/Docker/dashing-icinga/dashboards:/dashboards
+    - /Users/hbokh/dev/Docker/dashing-icinga/jobs:/jobs
+    - /Users/hbokh/dev/Docker/dashing-icinga/assets:/assets
+    - /Users/hbokh/dev/Docker/dashing-icinga/widgets:/widgets
+    - /Users/hbokh/dev/Docker/dashing-icinga/config:/config
+  ports:
+    - "8080:3030"
