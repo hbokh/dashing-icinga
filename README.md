@@ -37,7 +37,7 @@ But first you need to change these values in file `fig.yml`:
 - **TWITTER_KEY**: Twitter key
 - **TWITTER_SECRET**: Twitter password for that key
 - **TWITTER_TOKEN**: Twitter token
-- **TWITTER_TOKEN**: Twitter password for that token
+- **TWITTER_TOKEN_SECRET**: Twitter password for that token
 
 Get your Twitter key and tokens here: https://dev.twitter.com/docs/auth/tokens-devtwittercom
 
