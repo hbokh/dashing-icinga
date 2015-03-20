@@ -28,7 +28,7 @@ Or fetch it from the hub:
 
 ## Run
 
-Use [fig](http://fig.sh/) and `docker-compose up -d`  
+Use [docker-compose](http://docs.docker.com/compose/install/#install-compose) and `docker-compose up -d`  
 But first you need to change these values in file `docker-compose.yml`:  
 
 - **ICINGA_CGI**: URL to icinga-host's status.cgi
