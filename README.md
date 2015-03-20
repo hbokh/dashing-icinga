@@ -28,8 +28,8 @@ Or fetch it from the hub:
 
 ## Run
 
-Use [fig](http://fig.sh/) and `fig up -d`  
-But first you need to change these values in file `fig.yml`:  
+Use [fig](http://fig.sh/) and `docker-compose up -d`  
+But first you need to change these values in file `docker-compose.yml`:  
 
 - **ICINGA_CGI**: URL to icinga-host's status.cgi
 - **ICINGA_USER**: your icinga username
