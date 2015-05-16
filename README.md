@@ -72,6 +72,7 @@ URL: http://`< dockerhost >`:8080/icinga
 
 - http://boot2docker:8080/icinga  - dashboard with Twitter-widget and pretty wide
 - http://boot2docker:8080/icinga2 - dashboard without Twitter-widget, squared
+- http://boot2docker:8080/icinga3 - dashboard without Twitter-widget, smaller Icinga logo and pretty wide
 
 ## Todo
 
