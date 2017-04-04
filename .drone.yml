@@ -1,0 +1,15 @@
+pipeline:
+
+  publish:
+    image: plugins/docker
+    environment:
+      - DOCKER_LAUNCH_DEBUG=false
+    username: ${DOCKER_USERNAME}
+    password: ${DOCKER_PASSWORD}
+    email: ${DOCKER_EMAIL}
+    repo: hbokh/dashing-icinga
+    tag: 
+      - latest
+    insecure: false
+    when:
+      branch: master
